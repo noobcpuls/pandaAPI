@@ -121,7 +121,7 @@ function Main(props: testFunc): JSX.Element {
 							onChange={handleChangeName}
 						/>
 					</InputDiv>
-					<PPW>테스트라능</PPW>
+					<PPW>한 번 선택한 시험지는 바꿀 수 없습니다.</PPW>
 					<Start onClick={handleClickSubmit}>시험 시작</Start>
 					<Img src={pandalogo} alt="pandalogo" />
 				</FormDiv>
