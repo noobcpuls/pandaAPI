@@ -115,7 +115,8 @@ function Test(): JSX.Element {
 	function handleSaveTime() {
 		const userName = cookie.load("name");
 		axios({
-			url: "https://pandaedu-api.herokuapp.com/?user_name=" + userName,
+			url:
+				"https://pandaedu-api.herokuapp.com/test/update/?user_name=" + userName,
 			method: "PUT",
 			data: {
 				timer: time.current,
