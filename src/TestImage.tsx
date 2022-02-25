@@ -3,10 +3,6 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import cookie from "react-cookies";
 
-interface props {
-	grade: string;
-}
-
 export function TestImage() {
 	const [src, setSrc] = useState("");
 

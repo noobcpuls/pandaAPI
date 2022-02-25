@@ -1,14 +1,10 @@
 import React, { useEffect, useState, useRef } from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import cookie from "react-cookies";
 import axios from "axios";
 import { TestImage, Current } from "./TestImage";
 
-interface Props {
-	setTestTrue: Function;
-}
-
-function Test(props: Props): JSX.Element {
+function Test(): JSX.Element {
 	const [isRest, setIsRest] = useState<boolean>(false);
 	const [isCur, setIsCur] = useState<boolean>(false);
 	const [isDone, setIsDone] = useState<boolean>(false);
@@ -245,7 +241,3 @@ const TimerP = styled.p<{ time: number }>`
 `;
 
 export default Test;
-
-interface TimerP {
-	min: number;
-}

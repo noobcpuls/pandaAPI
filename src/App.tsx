@@ -16,11 +16,7 @@ function App() {
 		}
 	}, []);
 
-	return isTest ? (
-		<Test setTestTrue={handleSetTestTrue} />
-	) : (
-		<Main setTestTrue={handleSetTestTrue} />
-	);
+	return isTest ? <Test /> : <Main setTestTrue={handleSetTestTrue} />;
 }
 
 export default App;
