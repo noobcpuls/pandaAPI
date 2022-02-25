@@ -64,7 +64,7 @@ function Main(props: testFunc): JSX.Element {
 						<PP>시험지</PP>
 						<Select onChange={handleChangeGrade}>
 							<option value="1상2차/중1-1">
-								[1B] 양은정 선생님, (1교시)중등 1-1 2차/(2교시)중등 1-1
+								[1B] 양윤정 선생님, (1교시)중등 1-1 2차/(2교시)중등 1-1
 							</option>
 							<option value="1하2차/중1-1">
 								[1P] 전진영 선생님, (1교시)중등 1-2 2차/(2교시)중등 1-1
