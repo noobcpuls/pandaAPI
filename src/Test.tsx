@@ -10,8 +10,8 @@ function Test(): JSX.Element {
 	const [isDone, setIsDone] = useState<boolean>(false);
 	const [isFinish, setIsFinish] = useState<boolean>(false);
 
-	const [min, setMin] = useState<number>(1);
-	const [sec, setSec] = useState<number>(12);
+	const [min, setMin] = useState<number>(120);
+	const [sec, setSec] = useState<number>(0);
 	const time = useRef(60 * 210);
 	const visTime = useRef(60 * 120);
 	const timerId = useRef<any>(null);
