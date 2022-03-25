@@ -168,7 +168,7 @@ function Done() {
 		<Align>
 			<h2>시험이 종료되었습니다.</h2>
 			<h3>아래의 QR코드로 접속하여 시험지를 제출하기 바랍니다.</h3>
-			<QRcode src="/image/qrcode.png" alt="qrcode" />
+			<QRcode src="/image/openkakao.png" alt="qrcode" />
 		</Align>
 	);
 }
