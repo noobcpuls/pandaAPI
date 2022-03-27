@@ -9,7 +9,7 @@ interface testFunc {
 }
 
 function Main(props: testFunc): JSX.Element {
-	const [grade, setGrade] = useState<string>("1상2차/중1-1");
+	const [grade, setGrade] = useState<string>("1하1차/중1-1");
 	const [name, SetName] = useState<string>("");
 
 	function handleChangeName(e: React.ChangeEvent<HTMLInputElement>): void {
